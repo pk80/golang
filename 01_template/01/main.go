@@ -9,7 +9,7 @@ import (
 var tpl *template.Template
 
 func init() {
-	tpl = template.Must(template.ParseFiles("golang/01_template/firs_tpl.gohtml"))
+	tpl = template.Must(template.ParseFiles("first_tpl.gohtml"))
 }
 
 type client struct {
