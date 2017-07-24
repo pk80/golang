@@ -28,8 +28,8 @@ func main() {
 	fmt.Println("Enter you password :")
 	fmt.Scanln(&c1p)
 
-	c1 := client{"Praveen", "abcd"}
-	c2 := client{"Vasu", "67890"}
+	c1 := client{"Praveen", "12345"}
+	c2 := client{"Vasu", "abcdef"}
 	clients := []client{c1,c2}
 	if c1u==string(c1.Uname) && c1p==string(c1.Pwd) {
 		fmt.Println("Login Success...")
